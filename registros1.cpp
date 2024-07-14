@@ -46,6 +46,12 @@ int main() {
         }
     }
 
+    cout << "\nEmpleado con mayor sueldo:\n";
+    cout << "Nombre: " << empleados[indiceMayorSueldo].nombre << endl;
+    cout << "Sexo: " << empleados[indiceMayorSueldo].sexo << endl;
+    cout << "Sueldo: " << empleados[indiceMayorSueldo].sueldo << endl;
+    
+
     return 0;
 }
 
