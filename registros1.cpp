@@ -15,7 +15,9 @@ int main() {
     
     cout << "Ingrese cantidad de empleados: ";
     cin >> n;
-
+    cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+    
+    Empleado empleados[n];  
 
     return 0;
 }
