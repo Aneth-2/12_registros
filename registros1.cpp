@@ -51,6 +51,10 @@ int main() {
     cout << "Sexo: " << empleados[indiceMayorSueldo].sexo << endl;
     cout << "Sueldo: " << empleados[indiceMayorSueldo].sueldo << endl;
     
+    cout << "\nEmpleado con menor sueldo:\n";
+    cout << "Nombre: " << empleados[indiceMenorSueldo].nombre << endl;
+    cout << "Sexo: " << empleados[indiceMenorSueldo].sexo << endl;
+    cout << "Sueldo: " << empleados[indiceMenorSueldo].sueldo << endl;
 
     return 0;
 }
