@@ -40,7 +40,11 @@ int main() {
     }
     
 	int indiceMenorSueldo = 0;
-  
+   for (int i = 1; i < n; ++i) {
+        if (empleados[i].sueldo < empleados[indiceMenorSueldo].sueldo) {
+            indiceMenorSueldo = i;
+        }
+    }
 
     return 0;
 }
