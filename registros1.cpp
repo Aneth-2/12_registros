@@ -18,6 +18,17 @@ int main() {
     cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
     
     Empleado empleados[n];  
+    
+    for (int i = 0; i < n; ++i) {
+        cout << "EMPLEADO " << i + 1 << endl;
+        
+        cout << "Nombre: ";
+        getline(cin, empleados[i].nombre);
+        
+        cout << "Sexo: ";
+        getline(cin, empleados[i].sexo);
+ 
+    }
 
     return 0;
 }
