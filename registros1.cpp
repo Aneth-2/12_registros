@@ -33,6 +33,12 @@ int main() {
     }
     
     int indiceMayorSueldo = 0;
+    for (int i = 1; i < n; ++i) {
+        if (empleados[i].sueldo > empleados[indiceMayorSueldo].sueldo) {
+            indiceMayorSueldo = i;
+        }
+    }
+
 
     return 0;
 }
