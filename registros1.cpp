@@ -27,7 +27,9 @@ int main() {
         
         cout << "Sexo: ";
         getline(cin, empleados[i].sexo);
- 
+        cout << "Sueldo: ";
+        cin >> empleados[i].sueldo;
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
     }
 
     return 0;
