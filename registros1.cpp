@@ -38,7 +38,9 @@ int main() {
             indiceMayorSueldo = i;
         }
     }
-
+    
+	int indiceMenorSueldo = 0;
+  
 
     return 0;
 }
