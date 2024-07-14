@@ -31,6 +31,8 @@ int main() {
         cin >> empleados[i].sueldo;
         cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
     }
+    
+    int indiceMayorSueldo = 0;
 
     return 0;
 }
