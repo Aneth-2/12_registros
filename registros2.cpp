@@ -15,7 +15,9 @@ int main() {
 
     cout << "Ingrese la cantidad de personas: ";
     cin >> n;
+    cin.ignore(); 
 
+    Persona personas[n];
 
     return 0;
 }
