@@ -21,8 +21,16 @@ int main() {
     
     for (int i = 0; i < n; ++i) {
         cout << "Ingrese los datos de la PERSONA " << i + 1 << ":" << endl;
+        
+        cout << "Nombres: ";
+        getline(cin, personas[i].nombres);
 
-       
+        cout << "DNI: ";
+        getline(cin, personas[i].dni);
+
+        cout << "Edad: ";
+        cin >> personas[i].edad;
+        cin.ignore();
     }
 
 
