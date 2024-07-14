@@ -32,6 +32,12 @@ int main() {
         cin >> personas[i].edad;
         cin.ignore();
     }
+    
+	int cantidadMayores50 = 0;
+    double sumaEdades = 0.0;
+    for (int i = 0; i < n; ++i) {
+    
+    }
 
 
     return 0;
