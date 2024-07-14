@@ -18,6 +18,13 @@ int main() {
     cin.ignore(); 
 
     Persona personas[n];
+    
+    for (int i = 0; i < n; ++i) {
+        cout << "Ingrese los datos de la PERSONA " << i + 1 << ":" << endl;
+
+       
+    }
+
 
     return 0;
 }
