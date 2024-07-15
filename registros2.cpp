@@ -45,6 +45,10 @@ int main() {
     
     double promedioEdades = sumaEdades / n;
 
+    cout << "\nResumen de datos:" << endl;
+    cout << "Cantidad de personas mayores a 50 años: " << cantidadMayores50 << endl;
+    cout << "Promedio de edades: " << fixed << setprecision(2) << promedioEdades << endl;
+
     return 0;
 }
 
