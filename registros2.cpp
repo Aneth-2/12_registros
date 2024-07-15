@@ -36,7 +36,11 @@ int main() {
 	int cantidadMayores50 = 0;
     double sumaEdades = 0.0;
     for (int i = 0; i < n; ++i) {
-    
+    sumaEdades += personas[i].edad;
+        if (personas[i].edad > 50) {
+            cantidadMayores50++;
+        }
+
     }
 
 
