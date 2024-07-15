@@ -38,6 +38,7 @@ Atleta atletas[n];
     int maxMedallas = -1;
     string nombreMaxMedallas;
     
+    cout << "\nAtletas de " << paisBuscado << ":\n";
     return 0;
 }
 
