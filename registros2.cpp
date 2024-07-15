@@ -48,6 +48,15 @@ int main() {
     cout << "\nResumen de datos:" << endl;
     cout << "Cantidad de personas mayores a 50 años: " << cantidadMayores50 << endl;
     cout << "Promedio de edades: " << fixed << setprecision(2) << promedioEdades << endl;
+    cout << "\nDatos de las personas ingresadas:" << endl;
+   
+    for (int i = 0; i < n; ++i) {
+        cout << "PERSONA " << i + 1 << ":" << endl;
+        cout << "Nombres: " << personas[i].nombres << endl;
+        cout << "DNI: " << personas[i].dni << endl;
+        cout << "Edad: " << personas[i].edad << endl;
+        cout << endl;
+    }
 
     return 0;
 }
