@@ -29,6 +29,12 @@ Atleta atletas[n];
         cin >> atletas[i].numMedallas;
     }
 
+ string paisBuscado;
+    cout << "\nIngrese el nombre del pais para buscar atletas: ";
+    cin.ignore();
+    getline(cin, paisBuscado);
+    
+    
     return 0;
 }
 
