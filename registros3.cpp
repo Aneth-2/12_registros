@@ -40,6 +40,16 @@ int main() {
     Persona* personas = new Persona[n];
     pedirDatos(personas, n);
 
+int mes;
+    do {
+        cout << "Ingrese un numero de mes (0 para terminar): ";
+        cin >> mes;
+
+        if (mes != 0) {
+            mostrarPersonasCumpleanios(personas, n, mes);
+        }
+
+    }
 
     return 0;
 }
