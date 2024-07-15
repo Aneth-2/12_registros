@@ -53,8 +53,11 @@ Atleta atletas[n];
             encontrado = true;
         }
     }
-
-
+     if (!encontrado) {
+        cout << "No se encontraron atletas de " << paisBuscado << ".\n";
+    } else {
+        cout << "Atleta con mas medallas de " << paisBuscado << ": " << nombreMaxMedallas << " con " << maxMedallas << " medallas.\n";
+    }
 
     return 0;
 }
