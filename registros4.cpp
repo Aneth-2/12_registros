@@ -39,6 +39,13 @@ Atleta atletas[n];
     string nombreMaxMedallas;
     
     cout << "\nAtletas de " << paisBuscado << ":\n";
+    for (int i = 0; i < n; ++i) {
+        if (atletas[i].pais == paisBuscado) {
+            cout << "Nombre: " << atletas[i].nombre << endl;
+            cout << "Disciplina: " << atletas[i].disciplina << endl;
+            cout << "Numero de medallas: " << atletas[i].numMedallas << endl;
+            cout << endl;
+
     return 0;
 }
 
