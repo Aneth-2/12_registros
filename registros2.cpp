@@ -42,7 +42,8 @@ int main() {
         }
 
     }
-
+    
+    double promedioEdades = sumaEdades / n;
 
     return 0;
 }
