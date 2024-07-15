@@ -9,6 +9,10 @@ struct Atleta {
     int numMedallas;
 };
 
+int main() {
+    int n; 
+    cout << "Ingrese el numero de atletas: ";
+    cin >> n;
 
     return 0;
 }
