@@ -23,6 +23,14 @@ void pedirDatos(Persona* personas, int n) {
     }
 }
 
+void mostrarPersonasCumpleanios(Persona* personas, int n, int mes) {
+    cout << "Personas que cumplen anios en el mes " << mes << ":\n";
+    for (int i = 0; i < n; i++) {
+        if (personas[i].mesNacimiento == mes) {
+            cout << "Nombre: " << personas[i].nombre << ", Día: " << personas[i].diaNacimiento << ", Año: " << personas[i].anioNacimiento << "\n";
+        }
+    }
+}
 
     return 0;
 }
