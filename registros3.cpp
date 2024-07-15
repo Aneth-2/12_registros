@@ -36,6 +36,9 @@ int main() {
     int n;
     cout << "Ingrese el numero de personas: ";
     cin >> n;
+   
+    Persona* personas = new Persona[n];
+    pedirDatos(personas, n);
 
 
     return 0;
