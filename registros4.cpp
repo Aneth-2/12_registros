@@ -34,6 +34,9 @@ Atleta atletas[n];
     cin.ignore();
     getline(cin, paisBuscado);
     
+    bool encontrado = false;
+    int maxMedallas = -1;
+    string nombreMaxMedallas;
     
     return 0;
 }
