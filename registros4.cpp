@@ -45,6 +45,16 @@ Atleta atletas[n];
             cout << "Disciplina: " << atletas[i].disciplina << endl;
             cout << "Numero de medallas: " << atletas[i].numMedallas << endl;
             cout << endl;
+            
+            if (atletas[i].numMedallas > maxMedallas) {
+                maxMedallas = atletas[i].numMedallas;
+                nombreMaxMedallas = atletas[i].nombre;
+            }
+            encontrado = true;
+        }
+    }
+
+
 
     return 0;
 }
