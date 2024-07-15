@@ -49,7 +49,9 @@ int mes;
             mostrarPersonasCumpleanios(personas, n, mes);
         }
 
-    }
+    }while (mes != 0);
+    
+    delete[] personas;
 
     return 0;
 }
