@@ -32,6 +32,12 @@ void mostrarPersonasCumpleanios(Persona* personas, int n, int mes) {
     }
 }
 
+int main() {
+    int n;
+    cout << "Ingrese el numero de personas: ";
+    cin >> n;
+
+
     return 0;
 }
 
